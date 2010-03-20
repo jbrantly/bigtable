@@ -1,1 +1,7 @@
-A proof-of-concept for a really, really big HTML table.
+A proof-of-concept implementation for a really, really big HTML table.
+
+More details can be found at http://blog.jbrantly.com/2010/03/really-really-big-html-table.html
+
+The Prototype JS library is required and included. However, it is only used for attaching events, and can easily be replaced.
+
+Note that this implementation is not production ready and is intended as a proof-of-concept for a technique. The source code may be useful, however, in creating a production-ready component.
