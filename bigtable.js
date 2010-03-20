@@ -343,8 +343,8 @@ bigtable.prototype.getVisibleIndexes = function() {
 	var endY = startY+this._bodyEl.offsetHeight;
 	
 	// translate pixels into row indices
-	var startIndex = Math.floor(startY/20);
-	var endIndex = Math.floor(endY/20);
+	var startIndex = Math.floor(startY/this._rowHeight);
+	var endIndex = Math.floor(endY/this._rowHeight);
 	
 	// sanity check
 	if (endIndex>numRows-1) {

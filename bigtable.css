@@ -19,6 +19,7 @@
 
 .bigtable-container table {
 	table-layout: fixed;
+	border-collapse: collapse;
 	width: 1px;
 	height: 1px;
 }
@@ -32,6 +33,13 @@
 .bigtable-headers th {
 	height: 20px;
 	text-align: left;
+}
+
+.bigtable-body td {
+	overflow: hidden;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
 }
 
 .bigtable-body {
